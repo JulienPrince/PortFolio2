@@ -1,0 +1,103 @@
+.teams {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 0;
+  background: #2d2d2d;
+  color: #fff;
+}
+
+.teams_title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  color: #fca311;
+}
+
+.teams_title::before {
+  content: "";
+  position: absolute;
+  width: 180px;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  background: #fca311;
+  transform: translateX(-50%);
+}
+.teams_title::after {
+  content: "Mon Equipes";
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  padding: 5px;
+  background: #2d2d2d;
+  transform: translateX(-50%);
+}
+.teams_box img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #fca311;
+}
+.teams_box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.teams_card {
+  background: rgb(31, 31, 31);
+  border-radius: 6px;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+}
+.rightArrow {
+  font-size: 30px;
+  color: #fca311;
+}
+.leftArrow {
+  color: #fca311;
+  font-size: 30px;
+}
+
+.teams_box {
+  text-align: center;
+  padding: 5px;
+}
+.teams_text {
+  padding-top: 15px;
+  font-size: 20px;
+  font-weight: 500;
+}
+.teams_box p {
+  padding-top: 15px;
+  font-size: 15px;
+}
+
+.menu-item {
+  padding: 0 40px;
+  margin: 5px 10px;
+  user-select: none;
+  cursor: pointer;
+  border: none;
+}
+
+.menu-wrapper--inner:hover {
+  /* color: #2d2d2d; */
+  cursor: pointer;
+}
+.menu-item-wrapper:hover {
+  color: #fca311;
+  transition: color 0.3s;
+}
+.menu-wrapper--inner {
+  /* background-color: #fca311; */
+}

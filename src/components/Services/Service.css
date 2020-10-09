@@ -1,0 +1,96 @@
+.services {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 0;
+  background: #2d2d2d;
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.title_service {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  color: #fca311;
+}
+
+.title_service::before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  background: #fca311;
+  transform: translateX(-50%);
+}
+.title_service::after {
+  content: "Services Proposés";
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  padding: 5px;
+  background: #2d2d2d;
+  transform: translateX(-50%);
+}
+
+.serv_content {
+  padding: 0 20px;
+}
+
+.services_card {
+  background: rgb(31, 31, 31);
+  text-align: center;
+  border-radius: 6px;
+  padding: 20px 30px;
+  margin: 20px 20px;
+  cursor: pointer;
+  display: flex;
+  max-height: 381px;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-in-out;
+}
+
+.services_card:hover {
+  transform: scale(1.05);
+  background: #fca311;
+  color: #2d2d2d;
+}
+.service_icon {
+  font-size: 50px;
+}
+
+.services_text {
+  font-size: 25px;
+  font-weight: 600;
+  margin: 10px 0 7px 0;
+}
+
+@media screen and (min-width: 760px) {
+  .services_card {
+    width: 300px;
+  }
+  .serv_content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .services_card {
+    width: 350px;
+  }
+  .services_max_width {
+    max-width: 1334px;
+  }
+  .services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
