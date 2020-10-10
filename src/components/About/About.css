@@ -1,7 +1,6 @@
 .about {
   font-family: "Poppins", sans-serif;
   padding: 20px 0;
-  background: rgb(247, 247, 247);
 }
 
 .left {
@@ -32,7 +31,8 @@
 
 .right p {
   margin-bottom: 20px;
-  text-align: justify;
+  font-size: 17px;
+  color: #535353;
 }
 
 .right a {

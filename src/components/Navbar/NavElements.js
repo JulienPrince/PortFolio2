@@ -32,7 +32,7 @@ export const MobilIcon = styled.div`
     transition: all 0.2s ease-in-out;
     color: ${({ scrollNav }) => (scrollNav ? "#000" : "#fca311")};
   }
-  @media screen and (max-width: 832px) {
+  @media screen and (max-width: 915px) {
     display: block;
     position: absolute;
     top: 0;
@@ -54,7 +54,7 @@ export const NavMenu = styled.ul`
   list-style: none;
   text-align: center;
 
-  @media screen and (max-width: 832px) {
+  @media screen and (max-width: 915px) {
     display: none;
   }
 `;

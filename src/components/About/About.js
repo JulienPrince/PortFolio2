@@ -1,5 +1,5 @@
+/* eslint-disable react/jsx-no-target-blank */
 import React from "react";
-import { Link } from "react-router-dom";
 import "./About.css";
 import img from "../assets/profil.jpg";
 
@@ -18,16 +18,23 @@ const About = () => {
               <span className="typing-2"> Développeur Web</span>
             </div>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi ut
-              voluptatum eveniet doloremque autem excepturi eaque, sit
-              laboriosam voluptatem nisi delectus. Facere explicabo hic minus
-              accusamus alias fuga nihil dolorum quae. Explicabo illo unde, odio
-              consequatur ipsam possimus veritatis, placeat, ab molestiae velit
-              inventore exercitationem consequuntur blanditiis omnis beatae.
-              Dolor iste excepturi ratione soluta quas culpa voluptatum
-              repudiandae harum non.
+              <span>___</span>Bonjour,je suis un concepteur de sites Web
+              indépendant. J'ai plus de 2 ans d'expérience dans l'industrie du
+              développement.Je suis ingénieure diplômée en informatique. Je
+              travaille actuellement en tant qu’intégratrice web, développeur
+              web. Passionnée depuis toujours par les nouvelles technologies
+              multimédia, je me suis également lancée en webdesign après une
+              formation en autodidacte. Que vous soyez une entreprise, une
+              agence web ou un particulier, je serai contente de répondre à vos
+              besoins.
             </p>
-            <Link to="/">Download CV</Link>
+            <a
+              href="https://drive.google.com/file/d/1E2pJe4guxWeZSBhRRzjnlJNXXhYs0N95/view?usp=sharing"
+              target="_blank"
+              rel="noopener"
+            >
+              Download CV
+            </a>
           </div>
         </div>
       </div>

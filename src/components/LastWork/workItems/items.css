@@ -1,0 +1,90 @@
+.card {
+  position: relative;
+  min-width: 300px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.3),
+    inset -5px -5px 5px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(131, 131, 131, 0.1), -5px -5px 5px rgba(54, 54, 54, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+}
+
+.box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2e2e2e73;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3),
+    -5px -5px 5px rgba(255, 255, 255, 0.12),
+    inset 5px 5px 15px rgba(245, 245, 245, 0.2),
+    inset -5px -5px 5px rgba(54, 54, 54, 0.1);
+  transition: 0.5s ease-in-out all;
+}
+
+.box:hover {
+  transform: translateY(-50px);
+  box-shadow: 0px 40px 20px rgba(65, 65, 65, 0.5);
+}
+
+.wrapper {
+  width: 350px;
+}
+
+.img {
+  object-fit: cover;
+  height: 300px;
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  filter: brightness(80%);
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  transition: color 0.3s ease-in-out;
+}
+
+.card .MuiTypography-h2 {
+  color: rgb(202, 202, 202);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 20px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+.btn a {
+  color: #fca311;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  width: 220px;
+  font-size: 15px;
+  font-weight: 500;
+  text-align: center;
+  border-radius: 20px;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+
+.card:hover .box .content .btn a {
+  visibility: visible;
+  background-color: #fca311;
+  color: black;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+@media (min-width: 780px) {
+  .card .MuiTypography-h2 {
+    font-size: 1.8rem;
+  }
+  .card {
+    width: 320px;
+  }
+}

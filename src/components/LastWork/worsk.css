@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400&display=swap");
+
+.titre {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+}
+
+.work_main {
+  background: #2d2d2d;
+  padding-bottom: 30px;
+}
+
+.titre_line {
+  position: static;
+  display: inline-block;
+  height: 2px;
+  width: 40px;
+  background-color: #fca311;
+  transition: all 0.3s ease-in-out;
+}
+.titre .MuiTypography-h2 {
+  margin-left: 10px;
+  color: #fcfbfb;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: all 0.3s ease-in-out;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 780px) {
+  .titre_line {
+    height: 3px;
+    width: 60px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .titre .MuiTypography-h2 {
+    font-size: 1.9rem;
+    font-weight: 500;
+    transition: all 0.3s ease-in-out;
+  }
+}

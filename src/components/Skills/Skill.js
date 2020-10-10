@@ -10,16 +10,8 @@ const Skill = () => {
           <div className="skills_content">
             <div className="skill_column skill_left">
               <div className="skill_text">
-                Creative skills <span>& experiences.</span>
+                Créativité <span>& </span>experiences.
               </div>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Dignissimos, ratione error est recusandae consequatur, iusto
-                illum deleniti quidem impedit, quos quaerat quis minima sequi.
-                Cupiditate recusandae laudantium esse, harum animi aspernatur
-                quisquam et delectus ipsum quam alias quaerat? Quasi hic quidem
-                illum. Ad delectus natus aut hic explicabo minus quod.
-              </p>
             </div>
             <div className="skill_column skill_right">
               <div className="skill_bars">
@@ -84,6 +76,13 @@ const Skill = () => {
                   <span>50%</span>
                 </div>
                 <div className="skill_line postgres"></div>
+              </div>
+              <div className="skill_bars">
+                <div className="skill_info">
+                  <span>Versioning (gitHub, GitLab)</span>
+                  <span>65%</span>
+                </div>
+                <div className="skill_line version"></div>
               </div>
             </div>
           </div>

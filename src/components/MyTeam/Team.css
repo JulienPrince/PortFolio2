@@ -1,8 +1,8 @@
 .teams {
   font-family: "Poppins", sans-serif;
   padding: 20px 0;
-  background: #2d2d2d;
   color: #fff;
+  padding-bottom: 80px;
 }
 
 .teams_title {
@@ -28,12 +28,12 @@
 .teams_title::after {
   content: "Mon Equipes";
   font-size: 18px;
-  color: #fff;
+  color: #535353;
   position: absolute;
   bottom: -15px;
   left: 50%;
   padding: 5px;
-  background: #2d2d2d;
+  background: #fff;
   transform: translateX(-50%);
 }
 .teams_box img {
@@ -51,7 +51,7 @@
 }
 
 .teams_card {
-  background: rgb(31, 31, 31);
+  background: #3a3a3a;
   border-radius: 6px;
   width: 300px;
   display: flex;
@@ -62,10 +62,12 @@
 .rightArrow {
   font-size: 30px;
   color: #fca311;
+  cursor: pointer;
 }
 .leftArrow {
   color: #fca311;
   font-size: 30px;
+  cursor: pointer;
 }
 
 .teams_box {
@@ -90,14 +92,14 @@
   border: none;
 }
 
-.menu-wrapper--inner:hover {
-  /* color: #2d2d2d; */
-  cursor: pointer;
-}
 .menu-item-wrapper:hover {
   color: #fca311;
   transition: color 0.3s;
+  cursor: pointer;
+  transform: scale(1.05);
+  transition: all 0.3s ease-in-out;
 }
-.menu-wrapper--inner {
-  /* background-color: #fca311; */
+
+.menu-item-wrapper {
+  transition: all 0.3s ease-in-out;
 }

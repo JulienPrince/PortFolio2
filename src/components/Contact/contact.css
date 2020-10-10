@@ -1,0 +1,194 @@
+.contact {
+  font-family: "Poppins", sans-serif;
+  padding: 20px 0;
+  background: #2d2d2d;
+  padding-bottom: 80px;
+}
+.contact_title {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  padding-bottom: 30px;
+  color: #fca311;
+}
+
+.contact_title::before {
+  content: "";
+  position: absolute;
+  width: 250px;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  background: #fca311;
+  transform: translateX(-50%);
+}
+.contact_title::after {
+  content: "Contactez-nous";
+  font-size: 18px;
+  color: #fff;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  padding: 5px;
+  background: #2d2d2d;
+  transform: translateX(-50%);
+}
+
+.contact_content {
+  padding: 0 20px;
+  margin-bottom: 25px;
+}
+
+.contact_text {
+  font-size: 25px;
+  font-weight: 600;
+  color: #f7f7f7;
+}
+
+.contact_left p {
+  color: #f7f7f7;
+  font-size: 17px;
+  margin-bottom: 35px;
+  margin-top: 20px;
+  text-align: justify;
+  font-family: "Poppins", sans-serif;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+}
+
+.info {
+  padding-bottom: 13px;
+  margin-left: 20px;
+}
+
+.info_icon {
+  font-size: 26px;
+  color: #fca311;
+}
+
+.head {
+  color: rgb(156, 156, 156);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.sub-title {
+  color: #f7f7f7;
+}
+
+.contact_right form .fields {
+  display: flex;
+}
+
+.field {
+  height: 45px;
+  width: 100%;
+  margin-bottom: 13px;
+}
+
+.name {
+  margin-right: 10px;
+}
+
+.textarea {
+  margin-bottom: 20px;
+}
+
+.textarea textarea {
+  max-height: 64px;
+  max-width: 285px;
+  color: #dbdbdb;
+  background: #797979;
+  border: 1px solid #535353;
+  border-radius: 6px;
+  outline: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+
+.textarea textarea::placeholder {
+  color: #d4d4d4;
+  font-size: 15px;
+}
+
+.email {
+  margin-left: 10px;
+}
+.field input {
+  height: 100%;
+  width: 100%;
+  border: 1px solid #535353;
+  background: #797979;
+  border-radius: 6px;
+  color: #dbdbdb;
+  outline: none;
+  padding: 0 15px;
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+}
+.field input::placeholder {
+  color: #d4d4d4;
+  font-size: 15px;
+}
+
+.button .MuiButton-root {
+  margin-top: 15px;
+  color: #fca311;
+  border: 1px solid #fca311;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.button .MuiButton-root:hover {
+  color: #fff;
+  background-color: #fca311;
+}
+.button .MuiButton-text {
+  font-weight: 600;
+  text-transform: lowercase;
+}
+
+@media screen and (min-width: 320px) {
+  .textarea textarea {
+    max-width: 335px;
+  }
+}
+
+@media screen and (min-width: 414px) {
+  .textarea textarea {
+    max-width: 374px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .contact_content {
+    display: flex;
+    justify-content: center;
+  }
+  .contact_left {
+    max-width: 600px;
+    margin-right: 30px;
+  }
+  .contact_right {
+    display: flex;
+    flex-direction: column;
+  }
+  .info_gauch {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .info_droit {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .contact_text {
+    margin-bottom: 20px;
+  }
+}
