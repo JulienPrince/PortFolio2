@@ -6,11 +6,11 @@ const Skill = () => {
     <>
       <section className="skills" id="skills">
         <div className="skill_max_width">
-          <h2 className="skill_title">My skills</h2>
+          <h2 className="skill_title">Skills</h2>
           <div className="skills_content">
             <div className="skill_column skill_left">
               <div className="skill_text">
-                Créativité <span>& </span>experiences.
+                Creativity <span>& </span>experiences
               </div>
             </div>
             <div className="skill_column skill_right">
@@ -24,7 +24,7 @@ const Skill = () => {
               <div className="skill_bars">
                 <div className="skill_info">
                   <span>CSS</span>
-                  <span>60%</span>
+                  <span>85%</span>
                 </div>
                 <div className="skill_line css"></div>
               </div>
@@ -58,6 +58,13 @@ const Skill = () => {
               </div>
               <div className="skill_bars">
                 <div className="skill_info">
+                  <span>Vue JS</span>
+                  <span>85%</span>
+                </div>
+                <div className="skill_line vue"></div>
+              </div>
+              <div className="skill_bars">
+                <div className="skill_info">
                   <span>Nest Js</span>
                   <span>60%</span>
                 </div>
@@ -69,6 +76,20 @@ const Skill = () => {
                   <span>70%</span>
                 </div>
                 <div className="skill_line mysql"></div>
+              </div>
+              <div className="skill_bars">
+                <div className="skill_info">
+                  <span>Wordpress</span>
+                  <span>80%</span>
+                </div>
+                <div className="skill_line press"></div>
+              </div>
+              <div className="skill_bars">
+                <div className="skill_info">
+                  <span>SEO</span>
+                  <span>90%</span>
+                </div>
+                <div className="skill_line seo"></div>
               </div>
               <div className="skill_bars">
                 <div className="skill_info">

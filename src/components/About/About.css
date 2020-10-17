@@ -7,7 +7,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 30px;
 }
 
 .right {
@@ -76,7 +75,7 @@
   transform: translateX(-50%);
 }
 .title::after {
-  content: "Qui suis-je";
+  content: "Who are we ?";
   font-size: 20px;
   color: #505050;
   position: absolute;
@@ -89,12 +88,10 @@
 
 .left img {
   object-fit: cover;
-  width: 320px;
-  height: 390px;
+  width: 400px;
+  height: 100px;
   border-radius: 6px;
   transition: all 0.5s ease;
-  filter: brightness(85%);
-  box-shadow: 1px 5px 15px rgba(0, 0, 0, 0.2);
 }
 
 @media screen and (min-width: 1024px) {
@@ -103,10 +100,20 @@
     align-items: center;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .title {
+    margin-top: 50px;
+  }
+
+  .left img {
+    height: 450px;
   }
 
   .left {
-    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   .right {

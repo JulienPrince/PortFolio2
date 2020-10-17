@@ -25,7 +25,7 @@
   transform: translateX(-50%);
 }
 .contact_title::after {
-  content: "Contactez-nous";
+  content: "";
   font-size: 18px;
   color: #fff;
   position: absolute;
@@ -143,6 +143,7 @@
   border: 1px solid #fca311;
   border-radius: 20px;
   font-size: 15px;
+  width: 80px;
   font-weight: 500;
 }
 .button .MuiButton-root:hover {

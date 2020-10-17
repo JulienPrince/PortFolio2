@@ -25,7 +25,7 @@
   transform: translateX(-50%);
 }
 .skill_title::after {
-  content: "Mes Compétences";
+  content: "Take a Look";
   font-size: 17px;
   color: #fca311;
   position: absolute;
@@ -96,7 +96,7 @@
 }
 
 .css::before {
-  width: 60%;
+  width: 85%;
   background-color: #5f5f5f;
 }
 .js::before {
@@ -111,17 +111,29 @@
   width: 80%;
   background-color: #5f5f5f;
 }
+.vue::before {
+  width: 85%;
+  background-color: #fca311;
+}
 .nest::before {
   width: 60%;
+  background-color: #5f5f5f;
+}
+.seo::before {
+  width: 90%;
   background-color: #fca311;
 }
 .mysql::before {
   width: 70%;
+  background-color: #fca311;
+}
+.press::before {
+  width: 80%;
   background-color: #5f5f5f;
 }
 .postgres::before {
   width: 50%;
-  background-color: #fca311;
+  background-color: #5f5f5f;
 }
 .graphql::before {
   width: 65%;
@@ -129,7 +141,7 @@
 }
 .version::before {
   width: 65%;
-  background-color: #5f5f5f;
+  background-color: #fca311;
 }
 
 @media screen and (min-width: 720px) {

@@ -39,17 +39,16 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="contact_max-width">
-        <h2 className="contact_title">Contact</h2>
+        <h2 className="contact_title">Contact us</h2>
         <div className="contact_content">
           <div className="contact_column contact_left">
-            <div className="contact_text">Infos de contact</div>
+            <div className="contact_text">Contact Information</div>
             <p>
-              Vous avez un projet en tête? Écrivez-moi! Faisons quelque chose de
-              génial ensemble. Vous avez des missions freelance ou des projets à
-              me proposez , ou si vous souhaitez me contacter pour un devis
-              n’hésitez pas à me contacter directement ou en utilisant le
-              formulaire, je serais heureuse de vous répondre dans les plus
-              brefs délais.
+              Do you have a project in mind? Write to us! Let's do something
+              great together. You have freelance missions or projects to propose
+              us, or if you want to contact us for a quote do not hesitate to
+              contact us directly or by using the form, we will be happy to
+              answer you as soon as possible.
             </p>
 
             <div className="icons">
@@ -60,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <div className="head">Email</div>
-                    <div className="sub-title">prince.julienh@gmail.com</div>
+                    <div className="sub-title">mixrolegroup@gmail.com</div>
                   </div>
                 </div>
                 <div className="row">
@@ -69,7 +68,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <div className="head">LinkedIn</div>
-                    <div className="sub-title">Prince Julien</div>
+                    <div className="sub-title">MixRole</div>
                   </div>
                 </div>
                 <div className="row">
@@ -78,7 +77,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <div className="head">Facebook</div>
-                    <div className="sub-title">Wick Jhone</div>
+                    <div className="sub-title">MixRole</div>
                   </div>
                 </div>
               </div>
@@ -105,13 +104,13 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact_column contact_right">
-            <div className="contact_text">Envoyez-moi un message</div>
+            <div className="contact_text">Send us a message</div>
             <form action="#" onSubmit={sendEmail}>
               <div className="fields">
                 <div className="field name">
                   <input
                     type="text"
-                    placeholder="votre nom"
+                    placeholder="Your name"
                     required
                     name="name"
                   />
@@ -119,7 +118,7 @@ const Contact = () => {
                 <div className="field email">
                   <input
                     type="email"
-                    placeholder="votre Email"
+                    placeholder="Your Email"
                     required
                     name="email"
                   />
@@ -128,7 +127,7 @@ const Contact = () => {
               <div className="field subject">
                 <input
                   type="text"
-                  placeholder="Objet"
+                  placeholder="Object"
                   required
                   name="subject"
                 />
@@ -136,12 +135,12 @@ const Contact = () => {
 
               <div className="field textarea">
                 <textarea
-                  placeholder="Comment puis-je vous aider?"
+                  placeholder="How can we help you ?"
                   name="message"
                 ></textarea>
               </div>
               <div className="button">
-                <Button type="submit">Envoyer Message</Button>
+                <Button type="submit">Send</Button>
               </div>
             </form>
           </div>

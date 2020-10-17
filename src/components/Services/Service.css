@@ -27,7 +27,7 @@
   transform: translateX(-50%);
 }
 .title_service::after {
-  content: "Services Proposés";
+  content: "What we offer";
   font-size: 18px;
   color: #fff;
   position: absolute;

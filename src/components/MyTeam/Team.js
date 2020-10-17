@@ -25,7 +25,7 @@ const Team = () => {
   return (
     <section className="teams" id="teams">
       <div className="teams_max-width">
-        <h2 className="teams_title">My teams</h2>
+        <h2 className="teams_title">Our teams</h2>
         <ScrollMenu
           className="scroll"
           data={Teamslists.map((team, i) => (

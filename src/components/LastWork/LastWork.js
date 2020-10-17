@@ -11,7 +11,7 @@ const Lastwork = () => {
         <div className="titre">
           <div className="titre_line"></div>
           <Typography noWrap variant="h2">
-            Dernier Projet
+            Last Projects
           </Typography>
         </div>
         <div className="container">

@@ -15,7 +15,7 @@ const Footer = () => {
             spy={true}
             exact="true"
           >
-            Prince Dev
+            MixRole
           </Link>
           | Copyright © 2020 All rights reserved .
         </span>

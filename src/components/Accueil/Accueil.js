@@ -7,13 +7,11 @@ const HomeSection = () => {
     <section className="home" id="acceuil">
       <div className="max_width_home">
         <div className="home-content">
-          <div className="text-1">Hello, moi c'est</div>
-          <div className="text-2">Prince Julien</div>
+          <div className="text-1">Hello! </div>
+          <div className="text-2">MixRole Group</div>
           <div className="text-3">
-            Je suis intégrateur <span className="typing"> Web</span>,
-            développeur <span className="typing"> Back-end</span>, et
-            webdesigner<span className="typing"> freelance.</span>
-            <p> Bienvenue sur mon portfolio !</p>
+            <span className="typing">Web-Mobile-Wordpress </span> Development
+            <p>Welcome</p>
           </div>
           <Link
             to="works"
@@ -23,7 +21,7 @@ const HomeSection = () => {
             exact="true"
             offset={-70}
           >
-            Voir mes réalisations
+            Check Our Showcases
           </Link>
         </div>
       </div>

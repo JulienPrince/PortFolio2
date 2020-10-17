@@ -6,19 +6,18 @@ const Services = () => {
   return (
     <section className="services" id="service">
       <div className="services_max_width">
-        <h2 className="title_service">My services</h2>
+        <h2 className="title_service">Services</h2>
         <div className="serv_content">
           <div className="services_card">
             <div className="services_box">
               <div className="service_icon">
                 <FaPaintBrush />
               </div>
-              <div className="services_text">Web Design</div>
+              <div className="services_text">WEB DESIGN</div>
               <p>
-                Créer des maquettes web, concevoir des interfaces, réfléchir à
-                une identité graphique sur mesure, respecter une charte
-                graphique, pour vous faire des identités visuelles uniques, qui
-                vous représentent le mieux.
+                Create web mock-ups, design interfaces, think about a customized
+                graphic identity, respect a charter graphic, to make you unique
+                visual identities, which will make you represent you best.
               </p>
             </div>
           </div>
@@ -27,12 +26,12 @@ const Services = () => {
               <div className="service_icon">
                 <FaCode />
               </div>
-              <div className="services_text">DÉVELOPPEMENT FRONT-END</div>
+              <div className="services_text">FRONT-END DEVELOPMENT</div>
               <p>
-                Intégrer des maquettes web, réfléchir sur la performance d’une
-                page web, fournir du code propre pour une maquette peaufinée et
-                un site utilisable sur un maximum d’appareils et navigateurs,
-                c’est mon coeur de métier.
+                Integrate web mock-ups, reflect on the performance of a web
+                page, provide clean code for a fine-tuned mock-up, and a site
+                usable on a maximum of devices and browsers, this is our core
+                business.
               </p>
             </div>
           </div>
@@ -41,11 +40,11 @@ const Services = () => {
               <div className="service_icon">
                 <FaLaptopCode />
               </div>
-              <div className="services_text">DÉVELOPPEMENT BACK-END </div>
+              <div className="services_text">BACK-END DEVELOPMENT</div>
               <p>
-                Création de rapports fonctionnels et techniques. Appliquation
-                d'un large éventail de compétences techniques et d'expérience
-                dans tout le spectre du développement.
+                Creation of functional and technical reports. Application of a
+                wide range of technical skills and experience across the
+                spectrum of development.
               </p>
             </div>
           </div>
