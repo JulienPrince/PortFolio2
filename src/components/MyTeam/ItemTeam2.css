@@ -1,0 +1,86 @@
+.jContainer {
+  position: relative;
+  display: flex;
+  background-color: "#fff";
+  height: 350px;
+  width: 275px;
+  max-height: 350px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  overflow: hidden;
+}
+
+.jTopRounded {
+  position: absolute;
+  top: -125px;
+  background-color: #fca311;
+  width: 110%;
+  height: 250px;
+  z-index: -1;
+  border-radius: 125px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.jContainer:hover .jTopRounded {
+  opacity: 1;
+}
+
+.jProfile {
+  height: 125px;
+  width: 125px;
+  border-radius: 100px;
+  object-fit: cover;
+  transition: 0.5s;
+}
+
+.jContainer:hover .jProfile {
+  height: 110px;
+  width: 110px;
+  border: 2px solid grey;
+}
+
+.jAbout {
+  text-align: center;
+}
+
+.jAbout p:nth-child(1) {
+  font-weight: 500;
+  font-size: 1.5em;
+  color: #504c4c;
+}
+
+.jAbout p:nth-child(2) {
+  color: #b3c1c8;
+}
+
+.jSocials {
+  background-color: #fca311;
+  position: absolute;
+  bottom: -50px;
+  left: 0;
+  right: 0;
+  padding-right: 10px;
+  padding-left: 10px;
+  display: flex;
+  justify-content: space-around;
+  transition: 0.5s;
+  color: white;
+  overflow: hidden;
+}
+
+.jContainer:hover .jSocials {
+  bottom: 0;
+  color: white;
+}
+
+.jICtn {
+  padding: 2px 10px 2px;
+}
+
+.jSocials .jICtn:hover {
+  background-color: #b3c1c8;
+  opacity: 0.8;
+}
