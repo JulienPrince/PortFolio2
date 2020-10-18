@@ -14,18 +14,17 @@
 
 .jTopRounded {
   position: absolute;
-  top: -150px;
+  top: -240px;
   background-color: #fca311;
   width: 110%;
   height: 250px;
   z-index: -1;
-  border-radius: 125px;
-  opacity: 0;
   transition: 0.5s;
 }
 
 .jContainer:hover .jTopRounded {
-  opacity: 1;
+  top: -150px;
+  border-radius: 125px;
 }
 
 .jProfile {
