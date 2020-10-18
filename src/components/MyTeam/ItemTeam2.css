@@ -39,7 +39,6 @@
 .jContainer:hover .jProfile {
   height: 110px;
   width: 110px;
-  border: 2px solid grey;
 }
 
 .jAbout {
