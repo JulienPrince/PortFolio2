@@ -14,7 +14,7 @@
 
 .jTopRounded {
   position: absolute;
-  top: -125px;
+  top: -150px;
   background-color: #fca311;
   width: 110%;
   height: 250px;
@@ -43,6 +43,11 @@
 
 .jAbout {
   text-align: center;
+  transition: 0.5s;
+}
+
+.jContainer:hover .jAbout {
+  margin-bottom: 25px;
 }
 
 .jAbout p:nth-child(1) {
@@ -68,6 +73,8 @@
   transition: 0.5s;
   color: white;
   overflow: hidden;
+  min-height: 25px;
+  max-height: 25px;
 }
 
 .jContainer:hover .jSocials {
