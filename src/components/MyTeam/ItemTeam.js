@@ -1,11 +1,14 @@
 import React from "react";
+import "./ItemTeam.css";
 
 const ItemTeam = ({ items }) => {
   return (
-    <div className="teams_card">
-      <div className="teams_box">
-        <img src={items.img} alt={items.name} />
-        <div className="teams_text">{items.name}</div>
+    <div className="superCard">
+      <div className="imgBox">
+        <img src={items.img} />
+      </div>
+      <div className="superDetails">
+        <h2>{items.name}</h2>
         <p>{items.description}</p>
       </div>
     </div>

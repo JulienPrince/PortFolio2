@@ -1,6 +1,6 @@
 import React from "react";
 import ScrollMenu from "react-horizontal-scrolling-menu";
-import ItemTeam from "./ItemTeam";
+import ItemTeam2 from "./ItemTeam2";
 import { Teamslists } from "./Teams";
 import "./Team.css";
 import { FaAngleLeft, FaAngleRight } from "react-icons/fa";
@@ -29,12 +29,12 @@ const Team = () => {
         <ScrollMenu
           className="scroll"
           data={Teamslists.map((team, i) => (
-            <ItemTeam key={i} items={team} />
+            <ItemTeam2 key={i} item={team} />
           ))}
           arrowLeft={<LeftArrow />}
           arrowRight={<RightArrow />}
-          itemStyle={{ marginRight: 25 }}
-          menuStyle={{ marginBottom: 25 }}
+          itemStyle={{ marginRight: 25, marginTop: 10, marginBottom: 10 }}
+          innerWrapperStyle={{ display: "flex", alignItems: "center" }}
           wheel={false}
         />
       </div>

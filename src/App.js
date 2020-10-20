@@ -6,13 +6,15 @@ import {
   Route,
   Switch,
 } from "react-router-dom";
+import ItemTeam2 from "./components/MyTeam/ItemTeam2";
 
 function App() {
   return (
     <Router>
       <Switch>
         <Redirect from="/" to="/acceuil" exact></Redirect>
-        <Route path="/acceuil" component={Home} />
+        <Route path="/acceuil" component={Home} exact />
+        <Route path="/test" component={ItemTeam2} exact />
       </Switch>
     </Router>
   );
