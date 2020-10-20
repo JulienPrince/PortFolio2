@@ -26,19 +26,16 @@ function Socials() {
   return (
     <div className="jSocials">
       <div className="jICtn">
-        <i class="fab fa-facebook-f"></i>
+        <i className="fab fa-facebook-f"></i>
       </div>
       <div className="jICtn">
-        <i class="fab fa-linkedin-in"></i>
+        <i className="fab fa-linkedin-in"></i>
       </div>
       <div className="jICtn">
-        <i class="fab fa-twitter"></i>
+        <i className="fab fa-twitter"></i>
       </div>
       <div className="jICtn">
-        <i class="fab fa-instagram"></i>
-      </div>
-      <div className="jICtn">
-        <i class="fab fa-youtube"></i>
+        <i className="fab fa-instagram"></i>
       </div>
     </div>
   );

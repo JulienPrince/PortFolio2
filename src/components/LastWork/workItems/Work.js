@@ -12,9 +12,13 @@ const WorkItem = ({ img, title, link }) => {
               <img src={img} alt="projet" className="img" />
               <Typography variant="h2">{title}</Typography>
               <div className="btn">
-                <a href={link} target="_blank" rel="noopener">
-                  Visiter
-                </a>
+                {link !== "" ? (
+                  <a href={link} target="_blank" rel="noopener">
+                    Visiter
+                  </a>
+                ) : (
+                  ""
+                )}
               </div>
             </div>
           </div>

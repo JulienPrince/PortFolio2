@@ -5,7 +5,7 @@ const ItemTeam = ({ items }) => {
   return (
     <div className="superCard">
       <div className="imgBox">
-        <img src={items.img} />
+        <img src={items.img} alt="profil" />
       </div>
       <div className="superDetails">
         <h2>{items.name}</h2>
