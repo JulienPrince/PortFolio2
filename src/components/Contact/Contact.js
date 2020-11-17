@@ -44,7 +44,7 @@ const Contact = () => {
           <div className="contact_column contact_left">
             <div className="contact_text">Contact Information</div>
             <p>
-              Do you have a project in mind? Write to us! Let's do something
+              Do you have a project in mind? Write to us ! Let's do something
               great together. You have freelance missions or projects to propose
               us, or if you want to contact us for a quote do not hesitate to
               contact us directly or by using the form, we will be happy to
@@ -59,7 +59,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <div className="head">Email</div>
-                    <div className="sub-title">mixrolegroup@gmail.com</div>
+                    <div className="sub-title">prince.julienh@gmail.com</div>
                   </div>
                 </div>
                 <div className="row">
@@ -68,7 +68,9 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <div className="head">LinkedIn</div>
-                    <div className="sub-title">MixRole</div>
+                    <div className="sub-title">
+                      linkedin.com/in/prince-julien-445a3916a
+                    </div>
                   </div>
                 </div>
                 <div className="row">
@@ -77,7 +79,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <div className="head">Facebook</div>
-                    <div className="sub-title">MixRole</div>
+                    <div className="sub-title">John Wick</div>
                   </div>
                 </div>
               </div>
@@ -97,7 +99,7 @@ const Contact = () => {
                   </div>
                   <div className="info">
                     <div className="head">Address</div>
-                    <div className="sub-title">Fianarantsoa, Madagascar</div>
+                    <div className="sub-title">Madagascar</div>
                   </div>
                 </div>
               </div>

@@ -2,9 +2,9 @@ import React, { useState } from "react";
 import About from "../components/About/About";
 import HomeSection from "../components/Accueil/Accueil";
 import Contact from "../components/Contact/Contact";
+import Devi from "../components/Devi/Devi";
 import Footer from "../components/Footer/Footer";
 import Lastwork from "../components/LastWork/LastWork";
-import Team from "../components/MyTeam/Team";
 import Navbar from "../components/Navbar/Navbar";
 import Services from "../components/Services/Services";
 import SideBar from "../components/Sidebar";
@@ -26,7 +26,7 @@ const Home = () => {
       <Services />
       <Skill />
       <Lastwork />
-      <Team />
+      <Devi />
       <Contact />
       <Footer />
     </>

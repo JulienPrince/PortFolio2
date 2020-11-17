@@ -13,7 +13,7 @@ export const projects = [
     link: "https://film-reference.web.app/acceuil",
   },
   {
-    title: "Mix Rol",
+    title: "MR School",
     img: img3,
     link: "",
   },

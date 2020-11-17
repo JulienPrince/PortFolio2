@@ -1,9 +1,10 @@
+import image1 from "../assets/avatar.png";
+import image2 from "../assets/image2.png";
 export const Teamslists = [
   {
     name: "Cynthia",
     description: "Integratrice Wordpress, SEO",
-    img:
-      "https://scontent.ftnr2-1.fna.fbcdn.net/v/t1.0-9/42990433_1002396326637276_2533017869747224576_n.jpg?_nc_cat=110&_nc_sid=174925&_nc_eui2=AeENzxfAgnJrJAy-N1ejsqZel4pxDyOdNCmXinEPI500KexbA7QcgME3pvNXkAV1oSYnowZ50tfUO3HsTBooexHB&_nc_ohc=Lo6t6mku0iwAX--i1Vp&_nc_ht=scontent.ftnr2-1.fna&oh=aec89e96f4f7377259eebec4a07a244d&oe=5FB48554",
+    img: image2,
   },
   {
     name: "Joel Olivier",
@@ -11,12 +12,19 @@ export const Teamslists = [
     img:
       "https://scontent.ftnr2-1.fna.fbcdn.net/v/t31.0-8/26173385_2132505993644987_8750059992710176896_o.jpg?_nc_cat=107&_nc_sid=174925&_nc_ohc=5nr9kaFCn0MAX_lza97&_nc_oc=AQkZVfSKt529elUUr2gaxyw_Duwnvj-JagN88-UoBxDGzKc7I_tOb7mr0G-MgPC30hY&_nc_ht=scontent.ftnr2-1.fna&oh=86eee6989b0ceac0d4475ee2814a1330&oe=5FA67D31",
   },
+
   {
     name: "Julien Prince",
     description: "Developpeur Node Js, React Js, Vue Js, Nest Js",
     img:
       "https://media-exp1.licdn.com/dms/image/C5603AQGhuBvyp2Homg/profile-displayphoto-shrink_200_200/0?e=1608768000&v=beta&t=BumNjrxLoQbQ4UPxhGDv5YU3Rs2etRCkwXQFTIABIxI",
   },
+
+  // {
+  //   name: "Maminirina Sandra Rafidy",
+  //   description: "Integratrice Wordpress, SEO",
+  //   img: image1,
+  // },
   {
     name: "Charlin Randriamanaja",
     description: "Developpeur PHP, React Js, Synfony, Vues,  Wordpress",

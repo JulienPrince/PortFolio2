@@ -102,7 +102,7 @@ const Navbar = ({ toggle }) => {
               exact="true"
               offset={-70}
             >
-              Teams
+              Quote
             </NavLinks>
           </NavItem>
           <NavItem>
@@ -112,6 +112,7 @@ const Navbar = ({ toggle }) => {
               duration={500}
               spy={true}
               exact="true"
+              offset={-20}
             >
               Contact
             </NavLinks>

@@ -151,12 +151,11 @@
     align-items: center;
   }
   .skill_right {
-    width: 50%;
     display: flex;
     flex-direction: column;
+    width: 600px;
   }
   .skill_left {
-    max-width: 50%;
     margin-right: 30px;
   }
 
@@ -166,5 +165,14 @@
 
   .skill_text {
     font-size: 35px;
+  }
+}
+
+@media screen and (min-width: 1228px) {
+  .skills {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }

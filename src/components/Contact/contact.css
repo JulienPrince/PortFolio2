@@ -167,6 +167,11 @@
   }
 }
 @media screen and (min-width: 768px) {
+  .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .contact_content {
     display: flex;
     justify-content: center;
@@ -191,5 +196,11 @@
 
   .contact_text {
     margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 1228px) {
+  .contact {
+    height: 100vh;
   }
 }
