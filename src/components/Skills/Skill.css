@@ -100,15 +100,15 @@
   background-color: #5f5f5f;
 }
 .js::before {
-  width: 80%;
+  width: 90%;
   background-color: #fca311;
 }
 .ts::before {
-  width: 70%;
+  width: 80%;
   background-color: #5f5f5f;
 }
 .react::before {
-  width: 80%;
+  width: 75%;
   background-color: #5f5f5f;
 }
 .vue::before {
@@ -125,7 +125,7 @@
 }
 .mysql::before {
   width: 70%;
-  background-color: #fca311;
+  background-color: #5f5f5f;;
 }
 .press::before {
   width: 80%;
@@ -133,15 +133,15 @@
 }
 .postgres::before {
   width: 50%;
-  background-color: #5f5f5f;
+  background-color: #fca311;
 }
 .graphql::before {
-  width: 65%;
+  width: 75%;
   background-color: #fca311;
 }
 .version::before {
-  width: 65%;
-  background-color: #fca311;
+  width: 85%;
+  background-color: #5f5f5f;
 }
 
 @media screen and (min-width: 720px) {

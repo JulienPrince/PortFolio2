@@ -7,10 +7,10 @@ const HomeSection = () => {
     <section className="home" id="acceuil">
       <div className="max_width_home">
         <div className="home-content">
-          <div className="text-1">Hello, My Name is</div>
+          <div className="text-1">Hello, I'm</div>
           <div className="text-2">Julien Prince</div>
           <div className="text-3">
-            <span className="typing">Web-Mobile-Wordpress </span> Development
+            <span className="typing">Web-Mobile-Desktop </span> Development
             <p>Welcome</p>
           </div>
           <Link

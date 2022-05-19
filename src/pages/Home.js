@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import About from "../components/About/About";
 import HomeSection from "../components/Accueil/Accueil";
 import Contact from "../components/Contact/Contact";
-import Devi from "../components/Devi/Devi";
 import Footer from "../components/Footer/Footer";
 import Lastwork from "../components/LastWork/LastWork";
 import Navbar from "../components/Navbar/Navbar";
@@ -26,7 +25,6 @@ const Home = () => {
       <Services />
       <Skill />
       <Lastwork />
-      <Devi />
       <Contact />
       <Footer />
     </>

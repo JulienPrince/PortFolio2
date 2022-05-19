@@ -31,21 +31,21 @@ const Skill = () => {
               <div className="skill_bars">
                 <div className="skill_info">
                   <span>JavaScript</span>
-                  <span>80%</span>
+                  <span>90%</span>
                 </div>
                 <div className="skill_line js"></div>
               </div>
               <div className="skill_bars">
                 <div className="skill_info">
                   <span>TypeScript</span>
-                  <span>70%</span>
+                  <span>80%</span>
                 </div>
                 <div className="skill_line ts"></div>
               </div>
               <div className="skill_bars">
                 <div className="skill_info">
                   <span>GraphQl</span>
-                  <span>65%</span>
+                  <span>75%</span>
                 </div>
                 <div className="skill_line graphql"></div>
               </div>
@@ -65,13 +65,6 @@ const Skill = () => {
               </div>
               <div className="skill_bars">
                 <div className="skill_info">
-                  <span>Nest Js</span>
-                  <span>60%</span>
-                </div>
-                <div className="skill_line nest"></div>
-              </div>
-              <div className="skill_bars">
-                <div className="skill_info">
                   <span>MySQL</span>
                   <span>70%</span>
                 </div>
@@ -79,29 +72,15 @@ const Skill = () => {
               </div>
               <div className="skill_bars">
                 <div className="skill_info">
-                  <span>Wordpress</span>
-                  <span>80%</span>
-                </div>
-                <div className="skill_line press"></div>
-              </div>
-              <div className="skill_bars">
-                <div className="skill_info">
-                  <span>SEO</span>
-                  <span>90%</span>
-                </div>
-                <div className="skill_line seo"></div>
-              </div>
-              <div className="skill_bars">
-                <div className="skill_info">
                   <span>PostgreSQL</span>
-                  <span>50%</span>
+                  <span>60%</span>
                 </div>
                 <div className="skill_line postgres"></div>
               </div>
               <div className="skill_bars">
                 <div className="skill_info">
                   <span>Versioning (gitHub, GitLab)</span>
-                  <span>65%</span>
+                  <span>85%</span>
                 </div>
                 <div className="skill_line version"></div>
               </div>

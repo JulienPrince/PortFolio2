@@ -30,7 +30,7 @@ const Navbar = ({ toggle }) => {
     <Nav scrollNav={scrollNav}>
       <NavContainer>
         <NavLogo to="home" smooth={true} duration={500} spy={true} exact="true">
-          Mix<Span scrollNav={scrollNav}>Role</Span>
+          Julien <Span scrollNav={scrollNav}>Prince</Span>
         </NavLogo>
         <NavMenu>
           <NavItem>
@@ -91,18 +91,6 @@ const Navbar = ({ toggle }) => {
               offset={-70}
             >
               Works
-            </NavLinks>
-          </NavItem>
-          <NavItem>
-            <NavLinks
-              to="teams"
-              smooth={true}
-              duration={500}
-              spy={true}
-              exact="true"
-              offset={-70}
-            >
-              Quote
             </NavLinks>
           </NavItem>
           <NavItem>
