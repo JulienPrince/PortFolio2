@@ -7,9 +7,9 @@ const Footer = () => {
     <footer>
       <div className="footer">
         <span>
-          Created By
+          Créé par
           <Link
-            to="acceuil"
+            to="home"
             smooth={true}
             duration={500}
             spy={true}
@@ -17,7 +17,7 @@ const Footer = () => {
           >
             Julien Prince
           </Link>
-          | Copyright © 2020 All rights reserved .
+          | Copyright © 2020 Tous droits réservés.
         </span>
       </div>
     </footer>

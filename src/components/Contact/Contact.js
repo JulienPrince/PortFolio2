@@ -20,9 +20,9 @@ const Contact = () => {
     emailjs
       .sendForm(
         "PortFolio",
-        "template_xjxdjmh",
+        "template_kl3uksf",
         e.target,
-        "user_3g59h8dX7eN4hnNVsmTvM"
+        "yYQ1VuO6X8Ii8F3Tj"
       )
       .then(
         (result) => {
@@ -39,16 +39,16 @@ const Contact = () => {
   return (
     <section className="contact" id="contact">
       <div className="contact_max-width">
-        <h2 className="contact_title">Contact us</h2>
+        <h2 className="contact_title">Contactez-nous</h2>
         <div className="contact_content">
           <div className="contact_column contact_left">
-            <div className="contact_text">Contact Information</div>
+            <div className="contact_text">Informations de contact</div>
             <p>
-              Do you have a project in mind? Write to us ! Let's do something
-              great together. You have freelance missions or projects to propose
-              us, or if you want to contact us for a quote do not hesitate to
-              contact us directly or by using the form, we will be happy to
-              answer you as soon as possible.
+              Vous avez un projet en tête ? Écrivez-nous ! Faisons quelque chose
+              de formidable ensemble. Vous avez des missions freelance ou des projets
+              à nous proposer, ou si vous souhaitez nous contacter pour un devis,
+              n'hésitez pas à nous contacter directement ou en utilisant le formulaire,
+              nous serons heureux de vous répondre dans les plus brefs délais.
             </p>
 
             <div className="icons">
@@ -89,7 +89,7 @@ const Contact = () => {
                     <FaPhone />
                   </div>
                   <div className="info">
-                    <div className="head">Phone</div>
+                    <div className="head">Téléphone</div>
                     <div className="sub-title">+261347124289</div>
                   </div>
                 </div>
@@ -98,7 +98,7 @@ const Contact = () => {
                     <FaMapMarked />
                   </div>
                   <div className="info">
-                    <div className="head">Address</div>
+                    <div className="head">Adresse</div>
                     <div className="sub-title">Madagascar</div>
                   </div>
                 </div>
@@ -106,13 +106,13 @@ const Contact = () => {
             </div>
           </div>
           <div className="contact_column contact_right">
-            <div className="contact_text">Send us a message</div>
+            <div className="contact_text">Envoyez-nous un message</div>
             <form action="#" onSubmit={sendEmail}>
               <div className="fields">
                 <div className="field name">
                   <input
                     type="text"
-                    placeholder="Your name"
+                    placeholder="Votre nom"
                     required
                     name="name"
                   />
@@ -120,7 +120,7 @@ const Contact = () => {
                 <div className="field email">
                   <input
                     type="email"
-                    placeholder="Your Email"
+                    placeholder="Votre email"
                     required
                     name="email"
                   />
@@ -129,7 +129,7 @@ const Contact = () => {
               <div className="field subject">
                 <input
                   type="text"
-                  placeholder="Object"
+                  placeholder="Objet"
                   required
                   name="subject"
                 />
@@ -137,12 +137,12 @@ const Contact = () => {
 
               <div className="field textarea">
                 <textarea
-                  placeholder="How can we help you ?"
+                  placeholder="Comment pouvons-nous vous aider ?"
                   name="message"
                 ></textarea>
               </div>
               <div className="button">
-                <Button type="submit">Send</Button>
+                <Button type="submit">Envoyer</Button>
               </div>
             </form>
           </div>

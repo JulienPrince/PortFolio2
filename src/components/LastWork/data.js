@@ -14,12 +14,12 @@ export const projects = [
     link: "https://meetual.com/",
   },
   {
-    title: "Banking",
+    title: "Banque",
     img: img1,
     link: "https://bankmaket-e7a67.web.app/",
   },
   {
-    title: "Reference Film",
+    title: "Référence Film",
     img: img2,
     link: "https://film-reference.web.app/acceuil",
   },

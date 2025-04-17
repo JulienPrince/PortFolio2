@@ -27,15 +27,19 @@
   transform: translateX(-50%);
 }
 .title_service::after {
-  content: "What we offer";
+  content: "Ce que nous proposons";
   font-size: 18px;
   color: #fff;
   position: absolute;
   bottom: -15px;
   left: 50%;
-  padding: 5px;
+  padding: 5px 10px;
   background: #2d2d2d;
   transform: translateX(-50%);
+  white-space: nowrap;
+  width: auto;
+  text-align: center;
+  z-index: 5;
 }
 
 .serv_content {
@@ -52,7 +56,14 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+.services_card.animate {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .services_card:hover {
@@ -62,12 +73,43 @@
 }
 .service_icon {
   font-size: 50px;
+  transition: all 0.3s ease;
+}
+
+.services_card:hover .service_icon {
+  transform: scale(1.2);
+  color: #2d2d2d;
 }
 
 .services_text {
   font-size: 25px;
   font-weight: 600;
   margin: 10px 0 7px 0;
+  transition: all 0.3s ease;
+}
+
+.services_card:hover .services_text {
+  color: #2d2d2d;
+}
+
+@media screen and (max-width: 768px) {
+  .title_service::after {
+    font-size: 16px;
+    bottom: -12px;
+    width: auto;
+    padding: 3px 8px;
+  }
+  
+  .title_service {
+    padding-bottom: 25px;
+    margin-bottom: 35px;
+    font-size: 32px;
+  }
+  
+  .services_card {
+    margin: 15px 10px;
+    padding: 15px 20px;
+  }
 }
 
 @media screen and (min-width: 760px) {

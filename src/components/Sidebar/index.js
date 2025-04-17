@@ -17,7 +17,7 @@ const SideBar = ({ isOpen, toggle }) => {
       <SidebarWraper>
         <SidebarMenu>
           <SidebarLink
-            to="acceuil"
+            to="home"
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -28,7 +28,7 @@ const SideBar = ({ isOpen, toggle }) => {
             Accueil
           </SidebarLink>
           <SidebarLink
-            to="about"
+            to="abouts"
             onClick={toggle}
             smooth={true}
             duration={500}
@@ -58,7 +58,7 @@ const SideBar = ({ isOpen, toggle }) => {
             exact="true"
             offset={-70}
           >
-            Skills
+            Compétences
           </SidebarLink>
           <SidebarLink
             to="teams"
@@ -69,7 +69,7 @@ const SideBar = ({ isOpen, toggle }) => {
             exact="true"
             offset={-70}
           >
-            Teams
+            Devis
           </SidebarLink>
           <SidebarLink to="contact" onClick={toggle}>
             Contact

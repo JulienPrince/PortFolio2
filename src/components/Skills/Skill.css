@@ -25,7 +25,7 @@
   transform: translateX(-50%);
 }
 .skill_title::after {
-  content: "Take a Look";
+  content: "Jetez un coup d'œil";
   font-size: 17px;
   color: #fca311;
   position: absolute;
@@ -69,12 +69,28 @@
   justify-content: space-between;
 }
 
+.skill_bars {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease-out;
+}
+
+.skill_bars.animate {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .skill_line {
   position: relative;
   height: 7px;
   width: 100%;
   background: lightgray;
   border-radius: 5px;
+  overflow: hidden;
 }
 
 .skill_line::before {
@@ -82,64 +98,79 @@
   border-radius: 5px;
   position: absolute;
   height: 100%;
-  width: 80%;
+  width: 0; /* Commencer à 0% */
   left: 0;
   top: 0;
+  transition: width 1s ease-in-out;
+}
+
+.skill_bars.animate .skill_line::before {
+  /* L'animation s'activera quand la classe animate est ajoutée */
+  animation: pulse 1.5s infinite alternate;
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 0.8;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .skill_right {
   color: #535353;
 }
-.html::before {
+.skill_bars.animate .html::before {
   width: 90%;
   background-color: #fca311;
 }
 
-.css::before {
+.skill_bars.animate .css::before {
   width: 85%;
   background-color: #5f5f5f;
 }
-.js::before {
+.skill_bars.animate .js::before {
   width: 90%;
   background-color: #fca311;
 }
-.ts::before {
+.skill_bars.animate .ts::before {
   width: 80%;
   background-color: #5f5f5f;
 }
-.react::before {
+.skill_bars.animate .react::before {
   width: 75%;
   background-color: #5f5f5f;
 }
-.vue::before {
+.skill_bars.animate .vue::before {
   width: 85%;
   background-color: #fca311;
 }
-.nest::before {
+.skill_bars.animate .nest::before {
   width: 60%;
   background-color: #5f5f5f;
 }
-.seo::before {
+.skill_bars.animate .seo::before {
   width: 90%;
   background-color: #fca311;
 }
-.mysql::before {
+.skill_bars.animate .mysql::before {
   width: 70%;
-  background-color: #5f5f5f;;
+  background-color: #5f5f5f;
 }
-.press::before {
+.skill_bars.animate .press::before {
   width: 80%;
   background-color: #5f5f5f;
 }
-.postgres::before {
+.skill_bars.animate .postgres::before {
   width: 50%;
   background-color: #fca311;
 }
-.graphql::before {
+.skill_bars.animate .graphql::before {
   width: 75%;
   background-color: #fca311;
 }
-.version::before {
+.skill_bars.animate .version::before {
   width: 85%;
   background-color: #5f5f5f;
 }

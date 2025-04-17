@@ -1,16 +1,54 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "./Skill.css";
 
 const Skill = () => {
+  const sectionRef = useRef(null);
+  const skillBarsRef = useRef([]);
+  
+  useEffect(() => {
+    skillBarsRef.current = document.querySelectorAll('.skill_bars');
+    
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          // Activer l'animation pour toutes les barres de compétences
+          skillBarsRef.current.forEach((bar, index) => {
+            setTimeout(() => {
+              bar.classList.add("animate");
+            }, index * 100); // Ajouter un délai progressif
+          });
+        } else {
+          // Réinitialiser les animations lorsque la section sort de la vue
+          skillBarsRef.current.forEach((bar) => {
+            bar.classList.remove("animate");
+          });
+        }
+      },
+      { threshold: 0.3 }
+    );
+
+    const sectionElement = sectionRef.current;
+    
+    if (sectionElement) {
+      observer.observe(sectionElement);
+    }
+
+    return () => {
+      if (sectionElement) {
+        observer.unobserve(sectionElement);
+      }
+    };
+  }, []);
+  
   return (
     <>
-      <section className="skills" id="skills">
+      <section className="skills" id="skills" ref={sectionRef}>
         <div className="skill_max_width">
-          <h2 className="skill_title">Skills</h2>
+          <h2 className="skill_title">Compétences</h2>
           <div className="skills_content">
             <div className="skill_column skill_left">
               <div className="skill_text">
-                Creativity <span>& </span>experiences
+                Créativité <span>& </span>expériences
               </div>
             </div>
             <div className="skill_column skill_right">
@@ -79,7 +117,7 @@ const Skill = () => {
               </div>
               <div className="skill_bars">
                 <div className="skill_info">
-                  <span>Versioning (gitHub, GitLab)</span>
+                  <span>Gestion de versions (GitHub, GitLab)</span>
                   <span>85%</span>
                 </div>
                 <div className="skill_line version"></div>

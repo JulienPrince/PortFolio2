@@ -5,26 +5,26 @@ const Devi = () => {
   return (
     <section className="devi" id="teams">
       <div className="devi_max_width">
-        <h2 className="devi_title_service">Quote</h2>
+        <h2 className="devi_title_service">Devis</h2>
         <div className="devi_content">
           <div className="devi_card">
             <div className="devi_box">
-              <div className="devi_text">Showcase site</div>
+              <div className="devi_text">Site vitrine</div>
               <p>
-                showcase site (responsive) with a contact form. Creation of the
-                graphic model. (In the case of an integration of existing model
-                other price).
+                Site vitrine (responsive) avec formulaire de contact. Création du
+                modèle graphique. (Dans le cas d'une intégration de modèle existant,
+                tarif différent).
               </p>
               <p className="price">300 €</p>
             </div>
           </div>
           <div className="devi_card">
             <div className="devi_box">
-              <div className="devi_text">Customized application</div>
+              <div className="devi_text">Application personnalisée</div>
               <p>
-                Custom site building, Design, Front and Back office. Creation of
-                the graphic model. (In the case of an integration of existing
-                mock-up other price) and Maintenance.
+                Création de site sur mesure, Design, Front et Back office. Création du
+                modèle graphique. (Dans le cas d'une intégration de maquette existante,
+                tarif différent) et Maintenance.
               </p>
               <p className="price">550 €</p>
             </div>
@@ -33,11 +33,11 @@ const Devi = () => {
             <div className="devi_box">
               <div className="devi_text">E-commerce</div>
               <p>
-                E-commerce website (responsive), Design, Front and Back office,
-                Payment management, paypal, visa, mastercard. Domain name
-                proposal, SEO (Search Engine Optimization) Creation of the
-                graphic design. (In the case of an integration of existing
-                template other price) and Maintenance.
+                Site e-commerce (responsive), Design, Front et Back office,
+                Gestion des paiements, paypal, visa, mastercard. Proposition de nom de domaine,
+                Référencement (SEO - Search Engine Optimization). Création du design
+                graphique. (Dans le cas d'une intégration de template existant,
+                tarif différent) et Maintenance.
               </p>
               <p className="price">850 €</p>
             </div>
